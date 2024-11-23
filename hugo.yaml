@@ -5,6 +5,12 @@ theme: ["PaperMod"]
 
 enableEmoji: true
 
+# RSS specific settings
+rssLimit: 20
+
+author:
+  name: "Manojlo" # or whatever your blog name is
+
 params:
   homeInfoParams:
     Title: Hi there 
@@ -35,3 +41,9 @@ markup:
 # Important for Vercel
 build:
   noJSConfigInAssets: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
