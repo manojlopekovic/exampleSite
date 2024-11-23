@@ -1,0 +1,33 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: My New Hugo Site
+theme: ["PaperMod"]
+
+enableEmoji: true
+
+params:
+  homeInfoParams:
+    Title: Hi there 
+    Content: I am Manojlo
+
+related:
+  includeNewer: true
+  threshold: 60
+  toLower: false
+  indices:
+    - name: tags
+      weight: 100
+    - name: categories
+      weight: 70
+    - name: keywords
+      weight: 50
+    - name: date
+      weight: 10
+
+markup:
+  goldmark:
+    parser:
+      attributes:
+        block: true
+        title: true
+      wrapStandAloneImageWithinParagraph: false
