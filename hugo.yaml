@@ -1,6 +1,6 @@
-baseURL: https://example-site-ivory.vercel.app/
-languageCode: en-us
-title: My New Hugo Site
+baseURL: 'https://example-site-ivory.vercel.app/'
+languageCode: 'en-us'
+title: 'My New Hugo Site'
 theme: ["PaperMod"]
 
 enableEmoji: true
@@ -31,3 +31,7 @@ markup:
         block: true
         title: true
       wrapStandAloneImageWithinParagraph: false
+
+# Important for Vercel
+build:
+  noJSConfigInAssets: true
