@@ -1,0 +1,8 @@
+{
+  "name": "my-new-hugo-site",
+  "version": "1.0.0",
+  "description": "Your site description",
+  "scripts": {
+    "build": "hugo"
+  }
+}
