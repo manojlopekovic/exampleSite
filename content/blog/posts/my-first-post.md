@@ -1,7 +1,7 @@
 ---
 title: "My First Post"
 date: 2024-11-23T14:33:08+01:00
-draft: true
+draft: false
 ShowToc: true
 tags: ["hugo", "web", "blog"]
 categories: ["tech"]
